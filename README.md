@@ -22,8 +22,13 @@ is no need to run a build process or refresh the page manually. Additionally,
 you do not need to setup a local server to run the project.
 
 It is also recomented to show this in browser to play with sizing and to see it in full screen vs 
-small screen. the images hould stay in a 2x2 grid and the text should shrink to fit the boxes. the text should remain within the box its surrounded in. 
+small screen. the images hould stay in a 2x2 grid and the text should shrink to fit the boxes. The text should remain within the box its surrounded in. the text should stay within the box/grid it is in.
 
 ## Testing
 
 No tests for this site
+
+##  refrence used
+ to find the hex colors for this site https://imagecolorpicker.com/
+to help me lay out the grid pattern https://www.w3schools.com/css/css_grid.asp
+help me put the images in a fixed size https://www.w3schools.com/css/css3_box-sizing.asp
