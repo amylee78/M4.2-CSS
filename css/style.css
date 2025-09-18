@@ -1,9 +1,9 @@
 body{
-  background-color: #a9a9a9;
+  background-color: #a9a9a9; 
 }
 
 h1, h2 {
-  font-family: 'Cinzel Decorative';
+  font-family: 'Cinzel Decorative'; 
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -11,38 +11,37 @@ h1, h2 {
 }
 
 h1 {
-  text-shadow: 2px 2px 10px #000000;
+  text-shadow: 2px 2px 10px #000000; /*gives the title a shadow*/
+
 }
 
 
 .header img {
   width: 80px;
   height:90px;
-  padding-top: 30px;
+  padding-top: 30px; /*adds spacing obove bird logo*/
 
   
 }
 
 .title {
 
- display: flex;
- justify-content: center;
- gap: 130px;
-
-
+ display: flex; /*flexbox */
+ justify-content: center; /*centers the items inside the title*/
+ gap: 130px; /* gap between title and logo */
 
 }
 
 
 .navBar ul {
-  list-style: none;
+  list-style: none; /*gets rid of the bullet points*/
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /*aligns the list in a row */
   flex-wrap: wrap;
-  gap: 80px;
-  justify-content: center;
+  gap: 80px; /* gap between words*/
+  justify-content: center; 
   font-size: 40px;
-  padding: 10px 10px;
+  padding: 10px 10px; 
  
 }
 
@@ -58,26 +57,26 @@ h1 {
 }
 
 .welcome  p {
- font-size: 25px;
+ font-size: 25px; 
 }
 
 .container {
   display: grid;
   grid-template-areas:
-    "header header" 
-    "welcome favorite"
-    "footer footer";
+    "header header"  /* header grid area*/
+    "welcome favorite" /* welcome grid area */
+    "footer footer"; /*footer grid area */
  
-  grid-template-columns: 2fr 1fr; 
+  grid-template-columns: 2fr 1fr;  /* the areas take up 2:1 ratio. in the grid a area group. ex welcome 2: fav 1*/
   row-gap: 10px;
  
 }
 
 .container > div.header {
   grid-area: header;
-  text-align: center;
+  text-align: center; 
   background-color:#54d454;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px; /* pads left and right */
 
 }
 
@@ -86,7 +85,7 @@ h1 {
   background-color: #29e929;
   justify-content: center;
  padding: 30px;
- border-style: solid;
+ border-style: solid; /* gives the grid a border */
  border-width: 8px;
  border-color:#54d454;
 
@@ -94,7 +93,7 @@ h1 {
 
 
 .container > div.favorite {
-  grid-area: favorite;
+  grid-area: favorite; 
   background-color: #29e929;
   padding: 30px;
   justify-content: center;
@@ -115,15 +114,15 @@ h1 {
 
 
 .bird-photo {
-  width: 30vw;          
-  max-width: 400px;     
+  width: 30vw;     /* 20% of the view port*/      
+  max-width: 400px;     /* max size is 400 px */ 
 }
 
 .bird-photo a {
-  float: right;
+  float: right; 
   width: 50%;           
   padding: 5px;      
-  box-sizing: border-box;
+  box-sizing: border-box;  /* ensure the padding stays inside a certian width */ 
 }
 
 .bird-photo img {
