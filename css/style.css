@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(169,169,169,255);
+  background-color: #a9a9a9;
 }
 
 h1, h2 {
@@ -28,6 +28,7 @@ h1 {
  display: flex;
  justify-content: center;
  gap: 130px;
+
 
 
 }
